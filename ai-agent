@@ -1,0 +1,15 @@
+import React from 'react';
+import Chat from './Chat';
+import About from './About';
+
+function App() {
+  return (
+    <div>
+      <h1>Smart Support AI Agent</h1>
+      <Chat />
+      <About />
+    </div>
+  );
+}
+
+export default App;
